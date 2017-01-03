@@ -1,0 +1,30 @@
+aside h1 {
+	font-size: 110%;
+}
+
+article h1 {
+	font-size: 110%;
+}
+
+article  p {
+	text-indent: 3em;
+	padding-bottom: 1em;
+}
+
+section.statement > p {
+	text-indent: 1em;
+	font-style: italic;
+}
+
+aside h2 {
+	display: inline;
+	font-size: 100%;
+}
+
+aside h2:after {
+	content: ": ";
+}
+
+header {
+	padding: auto;
+}
